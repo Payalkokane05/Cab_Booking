@@ -1,0 +1,30 @@
+## Node
+node_modules/
+npm-debug.log*
+yarn-error.log
+
+## Lock files (optional to track)
+package-lock.json
+yarn.lock
+
+## Build outputs
+dist/
+build/
+.vite/
+out/
+
+## Env files
+.env
+.env.local
+
+## Uploads and runtime-generated files
+server/uploads/
+uploads/
+
+## OS files
+.DS_Store
+Thumbs.db
+
+## IDE
+.vscode/
+*.log

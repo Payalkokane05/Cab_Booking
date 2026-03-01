@@ -1,23 +1,70 @@
-# CAB BOOKING
+# CAB BOOKING SYSTEM (MERN Stack)
 
-This repository contains the CAB BOOKING project with two main folders: `client` and `server`.
+A full-stack Cab Booking Web Application built using the MERN Stack (MongoDB, Express.js, React.js, Node.js).  
+This project allows users to book cabs online and admins to manage cars, users, and bookings efficiently.
 
-Quick start
+## Project Description
 
-1. Client
+The CAB BOOKING SYSTEM is a web-based application that provides an easy and efficient way for users to book cabs online.  
+It includes authentication, booking management, and admin dashboard functionality.
 
-```
-cd "CAB BOOKING"/client
-npm install
-npm run dev
-```
+This project demonstrates full-stack development skills including:
 
-2. Server
+- REST API development
+- Authentication & Authorization
+- Database integration
+- Admin panel functionality
+- Responsive frontend UI
 
-```
-cd "CAB BOOKING"/server
-npm install
-node server.js
-```
+## Tech Stack
 
-To upload this project to GitHub, initialize a git repo in the `CAB BOOKING` folder, create a remote on GitHub, and push (instructions provided by the assistant).
+### Frontend
+
+- React.js
+- Vite
+- CSS
+- Axios
+- React Router
+
+### Backend
+
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- JWT Authentication
+- dotenv
+
+## Features
+
+### User Features
+
+- User Registration & Login
+- Browse Available Cabs
+- Book a Cab
+- View Booking History
+
+### Admin Features
+
+- Admin Dashboard
+- View All Users
+- Add New Cabs
+- Manage Cabs
+- View All Bookings
+
+## Project Structure
+
+CAB-BOOKING/
+│
+├── client/ # React Frontend
+├── server/ # Node + Express Backend
+├── .gitignore
+└── README.md
+
+## Future Improvements
+
+- Payment Integration
+- Google Maps API Integration
+- Ride Tracking
+- Email Notifications
+- Deployment on AWS / Render
